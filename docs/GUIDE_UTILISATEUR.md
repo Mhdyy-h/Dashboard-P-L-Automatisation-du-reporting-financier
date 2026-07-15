@@ -1,9 +1,5 @@
 # Guide utilisateur — Dashboard P&L Tunisie Telecom
 
-**Version** : 1.0
-**Public** : équipe Finance, contrôle de gestion, direction
-**Dernière mise à jour** : à compléter à la livraison
-
 ---
 
 ## 1. À quoi sert ce dashboard
@@ -45,7 +41,7 @@ Le rapport comporte **trois pages**, accessibles par les boutons de navigation e
 
 **Ce qu'elle permet** : explorer le détail et filtrer selon plusieurs axes.
 
-**Les filtres disponibles** (slicers en haut de page et volet Filtres) :
+**Les filtres disponibles**  :
 - **Business Unit** — Mobile, Digital, Wholesale, Enterprise, Fixed
 - **CDR** — Centre de Responsabilité
 - **Segment** — B2B, B2C, Wholesale
@@ -161,15 +157,5 @@ Oui : cliquez sur les « … » du visuel → Exporter les données. Le fichier 
 
 ---
 
-## 8. Contacts
-
-| Rôle | Contact |
-|---|---|
-| Conception du dashboard | Ala (stagiaire) |
-| Encadrement | Fida |
-| Support technique | à compléter |
-| Référentiel de mapping | à compléter |
-
----
 
 *Ce dashboard a été développé dans le cadre d'un projet de stage visant à automatiser et fiabiliser le reporting P&L. Pour la documentation technique (architecture, mesures, maintenance avancée), se référer au document DOCUMENTATION_TECHNIQUE.md.*

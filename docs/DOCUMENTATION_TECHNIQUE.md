@@ -1,9 +1,5 @@
 # Documentation technique — Dashboard P&L Tunisie Telecom
 
-**Version** : 1.0
-**Public** : développeur BI, référent technique, mainteneur
-**Objectif** : permettre à un tiers de comprendre, maintenir et faire évoluer la solution.
-
 ---
 
 ## 1. Vue d'ensemble de l'architecture
@@ -191,20 +187,6 @@ La ligne apparaît automatiquement dès qu'un compte y est mappé dans `Dim_Comp
 
 ### Ajouter une clé S4/S5
 Insérer les lignes dans `Cle_Equipement` / `Cle_Incoming` (Oracle), actualiser.
-
----
-
-## 9. Fichiers du projet
-
-```
-C:\PL_Stage\
-    01_create_user.sql              création de l'utilisateur Oracle
-    02_create_schema.sql            création des 11 tables
-    03_populate_oracle_v4.py        peuplement des données mock (version courante)
-    Theme_PL_Ooredoo.json           thème visuel
-    PL_Dashboard_v06_Final.pbix     rapport Power BI (livrable)
-    Docs\                           documents de clôture et guides
-```
 
 ---
 
