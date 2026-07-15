@@ -1,0 +1,49 @@
+# ── Secrets & credentials ──────────────────────────────
+# Ne jamais versionner d'identifiants ou de chaînes de connexion
+*.env
+.env
+config.ini
+credentials.json
+secrets.*
+*_secret*
+tnsnames.ora
+
+# ── Données réelles / exports ──────────────────────────
+# Aucune donnée de production ne doit être poussée
+*.csv
+*.xlsx
+*.xls
+*.dmp
+data/real/
+exports/
+
+# ── Power BI ───────────────────────────────────────────
+# Fichiers de cache et temporaires Power BI
+*.pbix.tmp
+*.tmp
+TempSaves/
+# Décommentez si vous ne voulez PAS versionner le rapport lui-même
+# (souvent volumineux et contenant des données en cache) :
+# *.pbix
+
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ── Oracle Instant Client (binaires locaux) ────────────
+instantclient*/
+*.dll
+*.so
+
+# ── OS / éditeurs ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
